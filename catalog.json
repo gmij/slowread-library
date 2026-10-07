@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "books": [
+    {
+      "id": "pride-and-prejudice",
+      "title": "傲慢与偏见",
+      "titleEn": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "aliases": [
+        "简·奥斯汀",
+        "Austen"
+      ],
+      "description": "从贝内特夫妇的一场闲谈开始。当前提供第一章完整中文试读。",
+      "statusLabel": "第一章可读 · 中文试读",
+      "source": {
+        "url": "https://www.gutenberg.org/ebooks/1342",
+        "notice": "仅包含原作第一章，不含现代序言、插画及现有中文译本。Gutenberg标记美国公有领域；面向其他地区发行前需核对版本权限。"
+      },
+      "chapters": [
+        {
+          "id": "01",
+          "title": "第一章",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
