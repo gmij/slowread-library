@@ -1,0 +1,140 @@
+{
+  "bookId": "gutenberg-11",
+  "id": "01",
+  "title": "CHAPTER I.",
+  "sourceHash": "830267f07e87cc1e8066749355566a1b8144cc211a03433cd8bb2ce4eac0669b",
+  "language": "zh-CN",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/11",
+    "notice": "原文来自 Project Gutenberg，保留原书来源及许可；各地区版权规则可能不同。"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "en": "Down the Rabbit-Hole",
+      "zh": "《兔子洞》"
+    },
+    {
+      "id": "p2",
+      "en": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversations?”",
+      "zh": "爱丽丝开始觉得坐在河岸上陪着她的姐姐很无聊，而且没什么可做的。她一两次偷看姐姐读的书，但那本书既没有图画，也没有对话。“没有图画和对话的书有什么用呢？”爱丽丝心想。"
+    },
+    {
+      "id": "p3",
+      "en": "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+      "zh": "因此，她一边在心里琢磨着（尽管由于天气炎热，她感到非常昏昏欲睡，头脑迟钝，所以也很难认真思考），是否值得起身去摘雏菊，从而得到编雏菊链的快乐，忽然有一只长着粉红色眼睛的白兔从她身边飞快地跑过。"
+    },
+    {
+      "id": "p4",
+      "en": "There was nothing so _very_ remarkable in that; nor did Alice think it so _very_ much out of the way to hear the Rabbit say to itself, “Oh dear! Oh dear! I shall be late!” (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually _took a watch out of its waistcoat-pocket_, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.",
+      "zh": "那件事本身并没有什么特别之处；爱丽丝也不觉得听到兔子自言自语地说：“天哪！天哪！我要迟到了！”（后来她仔细想想，觉得她应该对此感到惊讶，但当时她觉得这一切都很自然）；但当那只兔子真的从背心口袋里掏出一块手表，看了看，然后匆忙跑开时，爱丽丝一下子站了起来，因为她突然想到，她以前从未见过一只带着背心口袋、或者能从里面掏出表来的兔子，这让她感到非常惊讶。 她好奇地跑过田野去追它，幸运的是，她刚好及时看到它钻进篱笆下的一个大兔子洞里。"
+    },
+    {
+      "id": "p5",
+      "en": "In another moment down went Alice after it, never once considering how in the world she was to get out again.",
+      "zh": "一会儿工夫，爱丽丝也跟着跳了下去，根本没想到她到底怎样才能再爬出来。"
+    },
+    {
+      "id": "p6",
+      "en": "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.",
+      "zh": "兔子洞一开始像隧道一样笔直延伸了一段路，然后突然向下倾斜，下得如此之快，爱丽丝还没来得及想到要停下来，就已经发现自己掉进了一个非常深的井里。"
+    },
+    {
+      "id": "p7",
+      "en": "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled “ORANGE MARMALADE”, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it.",
+      "zh": "要么井非常深，要么她下落得非常缓慢，因为在她往下掉的过程中，她有足够的时间四处看看，想想接下来会发生什么。首先，她试着往下看，想弄清楚自己将要落到什么地方，但太黑了，什么也看不见；接着她看了看井壁，注意到井壁上装满了柜子和书架，这里那里挂着地图和图画。她经过书架时拿下来一个罐子，上面标着“橘子果冻”，但令她非常失望的是，罐子是空的：她不太想把它丢掉。 因为怕砸到下面的人，她设法在经过时把它放进了其中一个柜子里。"
+    },
+    {
+      "id": "p8",
+      "en": "“Well!” thought Alice to herself, “after such a fall as this, I shall think nothing of tumbling down stairs! How brave they’ll all think me at home! Why, I wouldn’t say anything about it, even if I fell off the top of the house!” (Which was very likely true.)",
+      "zh": "“唉！”爱丽丝自己心想，“像这样摔下去之后，我再也不觉得从楼梯上摔下来有什么大不了的了！在家里的所有人一定会觉得我非常勇敢！要知道，即使我从房子的顶上摔下来，我也不在乎，才不会说出来呢！”（这很可能是真的。）"
+    },
+    {
+      "id": "p9",
+      "en": "Down, down, down. Would the fall _never_ come to an end? “I wonder how many miles I’ve fallen by this time?” she said aloud. “I must be getting somewhere near the centre of the earth. Let me see: that would be four thousand miles down, I think—” (for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a _very_ good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over) “—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?” (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)",
+      "zh": "下，下，下。这坠落难道永远不会结束吗？她大声说道：“到这个时候，我已经下落了多少英里呢？”“我想我应该已经快到地球的中心了。让我想想：大概是四千英里深——”（因为，你看，爱丽丝在教室的课程中学到了不少这类东西，虽然现在并不是一个很好的展示她知识的机会，因为根本没有人在听，但至少可以练习一下）“——是的，大概就是这个距离——不过，我又想知道我现在处于什么纬度或经度呢？” （爱丽丝根本不知道纬度是什么，经度又是什么，但她觉得这些都是听起来很了不起的单词。）"
+    },
+    {
+      "id": "p10",
+      "en": "Presently she began again. “I wonder if I shall fall right _through_ the earth! How funny it’ll seem to come out among the people that walk with their heads downward! The Antipathies, I think—” (she was rather glad there _was_ no one listening, this time, as it didn’t sound at all the right word) “—but I shall have to ask them what the name of the country is, you know. Please, Ma’am, is this New Zealand or Australia?” (and she tried to curtsey as she spoke—fancy _curtseying_ as you’re falling through the air! Do you think you could manage it?) “And what an ignorant little girl she’ll think me for asking! No, it’ll never do to ask: perhaps I shall see it written up somewhere.”",
+      "zh": "这时她又开始说了：“我不知道我是否会直接掉到地球的另一边！要是掉到那些头朝下走路的人中间，该有多好笑啊！我想他们应该叫‘反地人’吧——”（她很高兴这次没有人在听，因为这个字听起来一点也不对）“——不过我得问问他们这个国家叫什么名字，你知道的。请问，夫人，这是新西兰还是澳大利亚？”（她说着试着行了个屈膝礼——在下落的时候行屈膝礼，真是奇怪啊！你认为你能做到吗？）“而她一定会觉得我是个无知的小女孩。” 谢谢提问！不，问是不行的：也许我会在什么地方看到它的报道。"
+    },
+    {
+      "id": "p11",
+      "en": "Down, down, down. There was nothing else to do, so Alice soon began talking again. “Dinah’ll miss me very much to-night, I should think!” (Dinah was the cat.) “I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me! There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know. But do cats eat bats, I wonder?” And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way, “Do cats eat bats? Do cats eat bats?” and sometimes, “Do bats eat cats?” for, you see, as she couldn’t answer either question, it didn’t much matter which way she put it. She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly, “Now, Dinah, tell me the truth: did you ever eat a bat?” when suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over.",
+      "zh": "下，下，下。没有其他事情可做，爱丽丝很快又开始说话了。“今晚迪娜一定会非常想念我，我想！”（迪娜是她的猫。）“我希望他们能在茶时间记得给迪娜的牛奶碟。迪娜，我亲爱的！但愿你此刻也在这里！这里没有老鼠，我担心，但你或许能抓到一只蝙蝠，这和老鼠很像，你知道的。但猫会吃蝙蝠吗，我想？”这时爱丽丝开始变得有些昏昏欲睡，她以一种恍惚的方式自言自语地说：“猫会吃蝙蝠吗？猫会吃蝙蝠吗？”有时还说：“蝙蝠会吃猫吗？”因为，你看，她…… 她无法回答任何一个问题，不管她怎么问，结果都差不多。她觉得自己快要睡着了，刚刚开始做梦，梦见自己正和迪娜手拉着手，非常认真地对她说：“迪娜，说老实话，你有没有吃过蝙蝠？”突然，“咚”的一声，“咚”的一声，她重重地摔在一堆棍子和干叶子上，这一下子就结束了。"
+    },
+    {
+      "id": "p12",
+      "en": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+      "zh": "爱丽丝一点也没受伤，她立刻跳了起来，抬头一看，上面全是黑暗；在她面前又是一条长长的通道，白兔正匆匆忙忙地沿着通道跑下去。她一刻也不能耽搁，像风一样冲了出去，刚好听到它在拐弯处说：“我的耳朵和胡须啊，时间过得真快！”她刚转过弯，就看见白兔，但这时白兔已经不见了。她发现自己来到了一个又长又低的大厅里，屋顶上挂着一排灯，照亮了整个大厅。"
+    },
+    {
+      "id": "p13",
+      "en": "There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again.",
+      "zh": "大厅四周都有门，但所有的门都锁着；当爱丽丝从一边走到底，又从另一边走上来，试了每一个门之后，她伤心地沿着中间走着，想不明白自己怎么才能再次出去。"
+    },
+    {
+      "id": "p14",
+      "en": "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them. However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!",
+      "zh": "她突然看到一张三脚的小桌子，全部由坚固的玻璃制成；桌上除了把小小的金钥匙外，什么也没有。爱丽丝的第一反应是，这把钥匙可能是大厅里某扇门的；但可惜的是，要么锁太大，要么钥匙太小，总之它无法打开任何一扇门。然而，当她第二次绕行时，她发现了一道之前未曾注意到的低矮帷幕，帷幕后面有一扇大约十五英寸高的小门。她试着用那把小金钥匙插进锁孔，令她非常高兴的是，它居然合适！"
+    },
+    {
+      "id": "p15",
+      "en": "Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway; “and even if my head would go through,” thought poor Alice, “it would be of very little use without my shoulders. Oh, how I wish I could shut up like a telescope! I think I could, if I only knew how to begin.” For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible.",
+      "zh": "爱丽丝打开门，发现门后是一条小通道，比老鼠洞大不了多少。她跪下来，朝通道里望去，看到了你一生中见过的最美丽的花园。她多么渴望离开这个黑暗的大厅，能在那些色彩鲜艳的花坛和清凉的喷泉间漫步啊。但她甚至连头都穿不过门框；“即使我的头能穿过去，”可怜的爱丽丝心想，“没有肩膀的话，也一点用也没有。哦，我多希望我能像望远镜一样缩起来！我觉得如果我知道怎么开始的话，我就能做到。”因为，你看，她经历了这么多…… 最近发生了一些不同寻常的事情，爱丽丝开始认为，真正不可能的事情其实很少。"
+    },
+    {
+      "id": "p16",
+      "en": "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (“which certainly was not here before,” said Alice,) and round the neck of the bottle was a paper label, with the words “DRINK ME,” beautifully printed on it in large letters.",
+      "zh": "看来在小门旁边等着是没有用的，于是她回到桌子旁，半抱着希望，也许能在桌上找到另一把钥匙，或者至少是一本像望远镜一样把人关起来的规则书。这次她在桌上发现了一只小瓶子（“这瓶子肯定以前不在这里，”爱丽丝说），瓶颈上贴着一张纸标签，上面用大而漂亮的文字写着“喝我”。"
+    },
+    {
+      "id": "p17",
+      "en": "It was all very well to say “Drink me,” but the wise little Alice was not going to do _that_ in a hurry. “No, I’ll look first,” she said, “and see whether it’s marked ‘_poison_’ or not”; for she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they _would_ not remember the simple rules their friends had taught them: such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger _very_ deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked “poison,” it is almost certain to disagree with you, sooner or later.",
+      "zh": "“喝我吧”这话听起来倒是挺容易的，但聪明的小爱丽丝可不会这么快就照做。“不，我得先看看，”她说，“看看瓶上有没有写着‘毒药’两个字”；因为她读过不少关于小孩因为不记得朋友教给他们的简单规则而被烧伤、被野兽吃掉以及其他各种不幸遭遇的有趣小故事：比如，如果你拿着烧红的铁棍太久，就会被烫伤；又比如，如果你用刀子把手指割得很深，通常就会流血；而她一直记得，如果你…… 从标有“毒药”的瓶子中喝很多，迟早会对你产生不良影响。"
+    },
+    {
+      "id": "p18",
+      "en": "However, this bottle was _not_ marked “poison,” so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.",
+      "zh": "然而，这个瓶子并没有标明“毒药”，所以爱丽丝大胆地尝了一口，发现味道非常好（事实上，它有一种混合的味道，像是樱桃派、蛋奶沙司、菠萝、烤火鸡、太妃糖和热黄油吐司），她很快就把它喝光了。"
+    },
+    {
+      "id": "p19",
+      "en": "“What a curious feeling!” said Alice; “I must be shutting up like a telescope.”",
+      "zh": "“真奇怪的感觉！”爱丽丝说，“我一定是在像望远镜一样缩起来。”"
+    },
+    {
+      "id": "p20",
+      "en": "And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden. First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this; “for it might end, you know,” said Alice to herself, “in my going out altogether, like a candle. I wonder what I should be like then?” And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could not remember ever having seen such a thing.",
+      "zh": "事实确实如此：她现在只有十英寸高了，一想到自己现在正好可以从小门进入那个美丽的花园，她的脸上顿时露出了喜悦的神色。然而，她首先等了几分钟，看看自己是否还会继续变小。她对此感到有点紧张：“要知道，”爱丽丝自言自语道，“我可能会完全消失，就像一支蜡烛一样。那时我会变成什么样子呢？”她试着想象蜡烛熄灭后火焰的样子，因为她已经记不清自己是否曾经见过这样的景象。"
+    },
+    {
+      "id": "p21",
+      "en": "After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice! when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried.",
+      "zh": "过了一会儿，她发现再没有什么事情发生，就决定立刻走进花园去；但啊，可怜的爱丽丝！当她走到门口时，她发现自己忘记带那把小金钥匙了。她回到桌子旁去拿，却发现无论如何都够不着。她能透过玻璃清楚地看到钥匙，她尽力爬上桌子的一条腿，但太滑了；她试得精疲力尽，那只可怜的小家伙便坐下来哭了。"
+    },
+    {
+      "id": "p22",
+      "en": "“Come, there’s no use in crying like that!” said Alice to herself, rather sharply; “I advise you to leave off this minute!” She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people. “But it’s no use now,” thought poor Alice, “to pretend to be two people! Why, there’s hardly enough of me left to make _one_ respectable person!”",
+      "zh": "“来吧，那样哭是没有用的！”爱丽丝对自己说道，语气相当生硬；“我劝你立刻停止！”她通常会给自己很好的建议（尽管她很少会遵从），有时候她会如此严厉地责骂自己，以至于眼眶都哭红了；有一次她记得自己曾试图打自己的耳光，因为在一场她和自己玩的槌球游戏中她欺骗了自己，因为这个奇怪的孩子非常喜欢假装成两个人。“但是现在这样假装成两个人已经没用了，”可怜的爱丽丝心想，“为什么呢，现在我剩下的部分已经不多了，” “让一个人变得体面！”"
+    },
+    {
+      "id": "p23",
+      "en": "Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words “EAT ME” were beautifully marked in currants. “Well, I’ll eat it,” said Alice, “and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door; so either way I’ll get into the garden, and I don’t care which happens!”",
+      "zh": "很快，她的眼睛落在桌子下面的一个小玻璃盒上。她打开盒子，发现里面有一个非常小的蛋糕，上面用葡萄干漂亮地写着“吃我”。“好吧，我就吃它，”爱丽丝说，“如果它让我变大，我就能够到钥匙；如果它让我变小，我就能从门下爬进去。不管怎样，我都能进入花园，我才不在乎会发生哪一种呢！”"
+    },
+    {
+      "id": "p24",
+      "en": "She ate a little bit, and said anxiously to herself, “Which way? Which way?”, holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way.",
+      "zh": "她吃了一点点，焦急地自言自语：“往哪边？往哪边？”她用手摸着头顶，想感觉头发是往哪边长的，她非常惊讶地发现她还是和原来一样大小：当然，一个人吃蛋糕时通常都会变大，但爱丽丝已经习惯了期待各种稀奇古怪的事情发生，所以觉得生活按平常的方式继续下去，简直无聊又愚蠢。"
+    },
+    {
+      "id": "p25",
+      "en": "So she set to work, and very soon finished off the cake.",
+      "zh": "于是她开始工作，很快就把蛋糕做好了。"
+    }
+  ],
+  "createdAt": "2026-10-07T12:01:11.370Z"
+}
