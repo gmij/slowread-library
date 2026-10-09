@@ -1,0 +1,48 @@
+# Installed in slowread-library/.github/workflows/catalog-sync.yml.
+name: Sync source metadata
+on:
+  schedule:
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Sync mode
+        type: choice
+        options: [incremental, full]
+        default: full
+permissions:
+  contents: write
+concurrency:
+  group: catalog-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Sync and build indexes
+        env:
+          REQUESTED_MODE: ${{ inputs.mode }}
+        run: |
+          mode="${REQUESTED_MODE:-incremental}"
+          if [ "$(date -u +%u)" = 7 ]; then mode=full; fi
+          python scripts/sync_catalog.py --root . --mode "$mode"
+      - name: Verify indexes
+        run: python -m unittest discover -s scripts -p 'test_catalog_sync.py'
+      - name: Publish atomically while preserving reader translation commits
+        run: |
+          git config user.name 'Slowread Catalog Sync'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add metadata
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Sync provider metadata and catalog indexes'
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1
