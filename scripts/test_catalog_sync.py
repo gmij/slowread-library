@@ -23,6 +23,15 @@ class CatalogSyncTests(unittest.TestCase):
             totals = sync.build(records, output, {'gutenberg-2': stable_id})
             self.assertEqual(totals['canonicalBooks'], 1)
             self.assertEqual(totals['totalBooks'], 2)
+    def test_generation_is_byte_deterministic(self):
+        with tempfile.TemporaryDirectory() as root:
+            output = Path(root)
+            records = sync.from_csv(b'Text#,Type,Issued,Title,Language,Authors,Subjects,LoCC,Bookshelves\n1,Text,2000-01-01,Example title,en,Author,Subject,P,Category: Novels\n')
+            sync.build(records, output)
+            original = {p.relative_to(output).as_posix(): p.read_bytes() for p in output.rglob('*.json')}
+            sync.build(records, output)
+            self.assertEqual(original, {p.relative_to(output).as_posix(): p.read_bytes() for p in output.rglob('*.json')})
+
     def test_failed_build_keeps_active_manifest(self):
         from unittest.mock import patch
         with tempfile.TemporaryDirectory() as root:

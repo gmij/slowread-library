@@ -70,7 +70,7 @@ def from_rdf(data):
 def write(root, name, value):
     path = root / name
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    path.write_text(json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')), encoding='utf-8')
 
 def build(records, output, aliases=None):
     aliases = aliases or {}
@@ -126,7 +126,9 @@ def build(records, output, aliases=None):
     for letter in 'abcdefghijklmnopqrstuvwxyz':
         write(output, 'authors/' + letter + '.json', sorted([a for a in authors.values() if a['title'].lower().startswith(letter)], key=lambda a: a['title']))
     write(output, 'directory.json', list(shelves.values()))
-    return {'totalBooks': len(records), 'canonicalBooks': sum(len(v) for v in canonical.values()), 'authors': len(authors), 'shelves': len(shelves)}
+    totals = {'totalBooks': len(records), 'canonicalBooks': sum(len(v) for v in canonical.values()), 'authors': len(authors), 'shelves': len(shelves)}
+    write(output, 'snapshot.json', totals)
+    return totals
 
 def main():
     parser = argparse.ArgumentParser()
@@ -167,10 +169,13 @@ def main():
         raise ValueError('Incomplete catalog; keep last good snapshot')
     aliases_path = root / 'canonical-mappings.json'
     aliases = json.loads(aliases_path.read_text('utf-8')) if aliases_path.exists() else {}
-    version = 'v-' + digest(json.dumps([3, records, aliases], sort_keys=True, ensure_ascii=False))[:20]
+    config_path = Path(__file__).with_name('taxonomy.json')
+    config_hash = digest(config_path.read_text('utf-8')) if config_path.exists() else ''
+    version = 'v-' + digest(json.dumps([4, config_hash, records, aliases], sort_keys=True, ensure_ascii=False))[:20]
     target = root / version
     target.mkdir(parents=True, exist_ok=True)
-    totals = build(records, target, aliases)
+    completion = target / 'snapshot.json'
+    totals = json.loads(completion.read_text('utf-8')) if completion.exists() else build(records, target, aliases)
     manifest = {k: totals[k] for k in ['totalBooks', 'canonicalBooks', 'authors', 'shelves']}
     manifest.update(schemaVersion=1, version=version, syncedAt=datetime.now(timezone.utc).isoformat(), mode=args.mode,
                     providers=[{'id': 'gutenberg-catalog', 'origin': 'gutenberg', 'enabled': True, 'priority': 100, 'metadata': 'csv+rdf', 'fullSync': 'weekly', 'incrementalSync': 'daily-rss-rdf'},
