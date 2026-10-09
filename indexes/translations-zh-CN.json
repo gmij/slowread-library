@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "language": "zh-CN",
+  "updatedAt": "2026-10-09T07:52:31.780743+00:00",
+  "books": [
+    {
+      "id": "gutenberg-11",
+      "title": "爱丽丝梦游仙境",
+      "titleEn": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "01",
+          "title": "CHAPTER I.",
+          "sourceHash": "830267f07e87cc1e8066749355566a1b8144cc211a03433cd8bb2ce4eac0669b"
+        }
+      ],
+      "unit": "章",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    },
+    {
+      "id": "gutenberg-1342",
+      "title": "傲慢与偏见",
+      "titleEn": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "01",
+          "title": "CHAPTER I.",
+          "builtin": true
+        },
+        {
+          "id": "02",
+          "title": "CHAPTER II.",
+          "sourceHash": "5bbee3f0a79e47e085a51d429a3033f84a136279379206bb39f529deca3cb2e2"
+        }
+      ],
+      "unit": "章",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    },
+    {
+      "id": "gutenberg-2591",
+      "title": "Grimms' Fairy Tales",
+      "titleEn": "Grimms' Fairy Tales",
+      "author": "Jacob Grimm and Wilhelm Grimm",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "01",
+          "title": "阅读分节 1",
+          "sourceHash": "d51f2f10a388011511ba5e442dba5159aed13e10f64764adff7efde9c59b3c35"
+        }
+      ],
+      "unit": "节",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    },
+    {
+      "id": "gutenberg-2814",
+      "title": "Dubliners",
+      "titleEn": "Dubliners",
+      "author": "James Joyce",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "01",
+          "title": "阅读分节 1",
+          "sourceHash": "c84c4029e6f860a67f32aadb952552938f807220a91095289537433dc82e7966"
+        }
+      ],
+      "unit": "节",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    },
+    {
+      "id": "gutenberg-45",
+      "title": "Anne of Green Gables",
+      "titleEn": "Anne of Green Gables",
+      "author": "L. M. Montgomery",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "01",
+          "title": "CHAPTER I. Mrs. Rachel Lynde Is Surprised",
+          "sourceHash": "9ace04a53d25ed4edfabe7c46a2c40520b29f1fdc1edc00a9129445392ffa1d1"
+        }
+      ],
+      "unit": "章",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    },
+    {
+      "id": "gutenberg-51942",
+      "title": "The Three Godfathers",
+      "titleEn": "The Three Godfathers",
+      "author": "Peter B. Kyne",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "01",
+          "title": "阅读分节 1",
+          "sourceHash": "0a76d8db737ce7a392f0b5f45149205328ad445bc37af8ee90f6a987504caac4"
+        }
+      ],
+      "unit": "节",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    },
+    {
+      "id": "gutenberg-84",
+      "title": "弗兰肯斯坦",
+      "titleEn": "Frankenstein",
+      "author": "Mary Shelley",
+      "sourceLanguage": "en",
+      "chapters": [
+        {
+          "id": "02",
+          "title": "Chapter 1",
+          "sourceHash": "62b649497620b38fee6ac74fb4eb220acd645bf7df4dfb52a0b4a83e8445fc3b"
+        }
+      ],
+      "unit": "章",
+      "updatedAt": "2026-10-09T07:52:31.780743+00:00"
+    }
+  ]
+}
